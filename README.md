@@ -14,11 +14,12 @@
    <br/>
 
  5. 사용한 오픈소스 및 모델 그외 정보
+<br/>
 사용한 오픈 소스 : ByteDance/AnimateDiff-Lightning
  <br/>
 사용한 모델 : (기본설정모델) emilianJR/epiCRealism
 
-6. 후기
+7. 후기
 
 프론트엔드 개발자로 AI에 관심이 많아서 처음에는 open AI로 챗봇을 만들었으나, 흥미가 생겨 달리를 이용해서 txt to img로 생성했습니다.
  <br/>
