@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const VideoGenerator = () => {
 
@@ -11,7 +11,7 @@ const VideoGenerator = () => {
             setIsLoading(true);
 
             const promptData = JSON.stringify({ prompt: prompt });
-
+            // py로 만든 생성형 AI 모델 연결
             const response = await fetch('http://localhost:5000/generate_video', {
                 method: 'POST',
                 headers: {
